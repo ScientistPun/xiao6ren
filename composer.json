@@ -1,6 +1,7 @@
 {
     "name": "scientistpun/xiao6ren",
     "description": "小六壬计算方法",
+    "version": "1.0.0",
     "type": "library",
     "require": {
         "6tail/lunar-php": "^1.3"
