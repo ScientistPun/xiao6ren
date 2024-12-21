@@ -140,7 +140,7 @@ class Xiao6Ren {
     public static function fromYmdH($year, $month, $day, $hour) {
         $solar = Solar::fromYmdHms($year, $month, $day, $hour, 1, 0);
         $lunar = $solar->getLunar();
-        return new X6R($lunar->getYear(), $lunar->getMonth(), $lunar->getDay(), $hour);
+        return new Xiao6Ren($lunar->getYear(), $lunar->getMonth(), $lunar->getDay(), $hour);
     }
 
     public function getGuaXiang() {
