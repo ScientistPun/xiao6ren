@@ -1,0 +1,25 @@
+{
+    "name": "scientistpun/xiao6ren",
+    "description": "小六壬计算方法",
+    "type": "library",
+    "require": {
+        "6tail/lunar-php": "^1.3"
+    },
+    "require-dev": {
+        "6tail/lunar-php": "^1.3"
+    },
+    "license": "MIT",
+    "keywords": ["xiao6ren"],
+    "authors": [
+        {
+            "name": "Scientist Pun",
+            "email": "honynero@sina.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "scientistpun\\xiao6ren\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
