@@ -132,8 +132,8 @@ class Xiao6Ren {
 
         $this->lunar = $lunar;
         $this->lunarTime = $lunarTime;
-        $this->guaNum = ($monthZhi + $dayZhi) % 6;
-        $this->dayGuaNum = ($monthZhi + $dayZhi + $hourZhi) % 6;
+        $this->guaNum = ($monthZhi + $dayZhi + $hourZhi) % 6;
+        $this->dayGuaNum = ($monthZhi + $dayZhi) % 6;
     } 
 
 
