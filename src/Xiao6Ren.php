@@ -5,7 +5,7 @@ use com\nlf\calendar\Lunar;
 use com\nlf\calendar\LunarTime;
 use com\nlf\calendar\Solar;
 
-class X6R {
+class Xiao6Ren {
     // 卦象
     private static $GUAXIANG = ['大安', '留连', '速喜', '赤口', '小吉', '空亡'];
     // 凶吉
